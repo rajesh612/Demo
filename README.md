@@ -17,5 +17,5 @@ github demo
 ## To redirect to a branch
         git checkout rajesh(branch)
   
-## To pull from repo
-        git pull
+## To pull from master repo
+        git pull origin master
