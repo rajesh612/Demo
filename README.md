@@ -19,3 +19,16 @@ github demo
   
 ## To pull from master repo
         git pull origin master
+        
+## To squash merge
+        git rebase -i HEAD~# of commits
+  
+## To add upstream for fork branches
+      git remote -v
+      git remote add upstream git@github.com:rajesh612/Demo.git
+
+## To update forked branch with upstream branch
+      git clean -df
+      git reset --hard upstream/branch
+      git pull upstream branch
+      git push origin branch --force
